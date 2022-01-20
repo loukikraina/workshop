@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "The Nautigal", cursive;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#my-canvas {
+    border: 0.1rem solid rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+    box-shadow: 0px 2px 8px 2px rgb(0 0 0 / 8%);
+}
+
+#title {
+    margin-top: 43rem;
+    position: absolute;
+    font-size: 4rem;
+    color: hsl(0, 0%, 40%);
+}
